@@ -48,7 +48,7 @@ if __name__ == "__main__":
         dac.set_dac_out_range(OUTPUT_RANGE_5V)
         
         # Set output voltage to 2.5V (2500mV)
-        dac.set_dac_out_voltage(2000, CHANNEL0)
+        dac.set_dac_out_voltage(0, CHANNEL0)
         
         # Store settings to DAC (will retain after power cycle)
         dac.store()
